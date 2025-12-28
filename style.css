@@ -87,3 +87,45 @@ footer{
     padding: 25px 0;
     opacity: 0.7;
 }
+
+/* Two column layout */
+.two-col{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 25px;
+}
+
+/* Box design */
+.box{
+    background: rgba(255,255,255,0.06);
+    padding: 22px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: .3s;
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    border-color: #44ff9a;
+}
+
+/* Risk & Reward Cards */
+.risk{
+    background: rgba(255,255,255,0.06);
+    padding: 22px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.reward{
+    border-left: 4px solid #44ff9a;
+}
+
+.danger{
+    border-left: 4px solid #ff6b6b;
+}
+
+.risk ul li{
+    margin-bottom: 8px;
+}
