@@ -129,3 +129,32 @@ footer{
 .risk ul li{
     margin-bottom: 8px;
 }
+
+/* Steps Timeline */
+.steps{
+    margin-top: 25px;
+    border-left: 3px solid rgba(255,255,255,0.25);
+    padding-left: 25px;
+}
+
+.step{
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.step span{
+    position: absolute;
+    left: -40px;
+    top: 0;
+    background: #44ff9a;
+    color: #001310;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.step p{
+    opacity: 0.9;
+}
